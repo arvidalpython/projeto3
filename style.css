@@ -1,0 +1,154 @@
+body{
+    /* font-family: "Zilla Slab", serif; */
+    /* font-family: "Lobster", sans-serif; */
+    /* font-family: "Libre Baskerville", serif; */
+    /* font-family: "Briem Hand", cursive;*/
+    /* font-family: "Jaini Purva", system-ui; */
+    /* font-family: "Yuji Mai", serif; */
+    /* font-family: "Langar", system-ui; */
+    background-color: black;
+    color: #b1b1b1;
+}
+
+.navbar{
+    background-color: black;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color:#BF9A78;
+    color:#000000;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active{
+    /* color: #fff; */
+    color: #A6763C;
+}
+
+.nav-link {
+    /* color: #fff; */
+    color: #A6763C;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color:#BF9A78;
+    color:#000000;
+    font-weight: bold;
+}
+
+.nav-cardapio .nav-link:hover,
+#fale-conosco button:hover{
+    background-color: #594036;
+    color: black;
+}
+
+.navbar-brand{
+    /* font-family: "Zilla Slab", serif; */
+    /* font-family: "Lobster", sans-serif; */
+    /* font-family: "Libre Baskerville", serif; */
+    font-family: "Briem Hand", cursive;
+    font-size: 32pt;
+    /* font-family: "Jaini Purva", system-ui; */
+    /* font-family: "Yuji Mai", serif; */
+    /* font-family: "Langar", system-ui; */
+}
+
+.navbar-toggler{
+    background-color: #e4dede;
+}
+
+.img-fluid{
+    width: 1920px;
+    height: 760px;
+    object-fit: cover; /* Isso garante que a imagem cubra todo o espaço disponível, possivelmente cortando parte da imagem */
+}
+
+.img-logo{
+    max-width: 7%;
+    /* height: 10%; */
+    object-fit: cover; 
+    border-radius: 55px;
+}
+
+.img-restaurante{
+    border-radius: 120px 0px;
+
+}
+
+.sobre-restaurante, .fale-conosco{
+    background-color: #140808;
+    
+}
+
+
+.section-title{
+    /* font-family: "Zilla Slab", serif; */
+    /* font-family: "Lobster", sans-serif; */
+    /* font-family: "Libre Baskerville", serif; */
+    font-family: "Briem Hand", cursive;
+    /* font-family: "Jaini Purva", system-ui; */
+    /* font-family: "Yuji Mai", serif; */
+    /* font-family: "Langar", system-ui; */
+    /* color: #fff; */
+    /* color: #A6763C; */
+    color: #8C593B;
+}
+
+.titulos{
+   color: #f0bd8d;
+}
+
+p, i{
+    color: #f0bd8d;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+
+}
+
+.social-links a, .text-decoration-link a, .div-footer a{
+    text-decoration: none;
+}
+
+.text-decoration-link a{
+    color: #f0bd8d;
+}
+
+.div-footer a{
+    color: #594036;
+}
+
+.tab-pane img{
+    height: 240px;
+}
+
+#casa img{
+    height: 580px;
+    /* max-width: 360px; */
+}
+
+.div-footer{
+    border-top: solid 1px;
+    margin-top: 2%;
+    color: #A6763C;
+}
+
+
+@media (max-width: 767px) {
+
+    .carousel-item img{
+        height: 280px;
+    }
+
+    .tab-pane img{
+        height: 240px;
+        max-width: 70%;
+        align-items: center;
+    }
+    
+}
